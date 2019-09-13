@@ -37,16 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
                     int randomInteger;
-//                    switch (deck.size()) {
-//                        case 1:
-//                            randomInteger = 0;
-//                            break;
-//                        case 2:
-//                            randomInteger = rand.nextInt(deck.size()-2)+1;
-//                            break;
-//                        default:
-//                            randomInteger = rand.nextInt(deck.size()-2)+1;
-//                    }
                     randomInteger = rand.nextInt(deck.size());
 
                     cardPicked.setText(deck.get(randomInteger));
